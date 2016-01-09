@@ -46,7 +46,7 @@ The following tasks are automated:
 * Collection coverage information
 * Documentation generation
 
-#### Execute `./index.js`
+#### Execute root script
 
 `npm run nodemon_exec`
 
