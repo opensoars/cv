@@ -48,7 +48,7 @@ The following tasks are automated:
 
 * Root script execution
 * Running tests
-* Collection coverage information
+* Collecting coverage information
 * Documentation generation
 
 #### Execute root script
