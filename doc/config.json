@@ -1,6 +1,6 @@
 {
   "source": {
-    "include": ["./lib", "./index.js"]
+    "include": ["./index.js", "./src/lib", "./src/index.js"]
   },
   "opts": {
     "recurse": true,

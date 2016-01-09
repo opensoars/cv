@@ -5,4 +5,3 @@ exclude_paths:
   - doc/*
   - coverage/*
   - node_modules/*
-  - dist/*
