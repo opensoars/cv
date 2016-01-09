@@ -15,8 +15,12 @@ gulp.task('babel', function () {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('doc', function () {
+  console.log('This should run `npm run doc`');
+});
+
 gulp.task('watch', function () {
-  gulp.watch('src/**/*.js', ['babel']);
+  gulp.watch('src/**/*.js', ['babel', 'doc']);
 });
 
 gulp.task('default', function () {
