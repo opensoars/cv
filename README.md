@@ -18,4 +18,41 @@ Computer visualization.
 
 ## Install
 
+1. `git clone https://github.com/opensoars/cv`
+2. `cd cv`
+3. `npm install`
+
+
+## Development
+
+### Tests and coverage
+
+1. `npm run local_test`
+2. Browse to `./coverage/index.html`
+
+### Documentation 
+
+1. `npm run doc`
+2. Browse to `./doc/jsdoc/index.html`
+
+### Nodemon
+
+Using this project its `nodemon` workflow requires `nodemon` to be install globally (at the moment). This can be done by running the following command: `npm install -g nodemon`.
+
+With this project the following tasks are automated.
+
+* Root script execution
+* Running tests
+* Collection coverage information
+* Documentation generation
+
+#### Execute `./index.js`
+
+`npm run nodemon_exec`
+
+#### Run tests and generate documentation
+
+`npm run nodemon_test_doc`
+
+
 ## Use
