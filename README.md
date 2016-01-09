@@ -23,6 +23,11 @@ Computer visualization.
 3. `npm install`
 
 
+## Use
+
+INC.
+
+
 ## Development
 
 ### Tests and coverage
@@ -53,8 +58,3 @@ The following tasks are automated:
 #### Run tests and generate documentation
 
 `npm run nodemon_test_doc`
-
-
-## Use
-
-INC.
