@@ -39,7 +39,7 @@ Computer visualization.
 
 Using this project its `nodemon` workflow requires `nodemon` to be install globally (at the moment). This can be done by running the following command: `npm install -g nodemon`.
 
-With this project the following tasks are automated.
+The following tasks are automated:
 
 * Root script execution
 * Running tests
