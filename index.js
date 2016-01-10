@@ -1,3 +1,8 @@
-module.exports = require('./src');
+"use strict";
 
-console.log('cool @ ./');
+let cv = require('./src');
+
+module.exports = cv;
+
+console.log(cv);
+

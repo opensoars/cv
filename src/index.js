@@ -1,6 +1,14 @@
-/**
- * This is what you get when you `require('cv')`.
- * @module cv
- */
+"use strict";
 
-var cv = {};
+/**
+ * Top level application namespace.
+ * @namespace cv
+ */
+let cv = {};
+
+/**
+ * cv north bridge module
+ */
+cv.nb = require('./lib/devices/nb');
+
+module.exports = cv;
