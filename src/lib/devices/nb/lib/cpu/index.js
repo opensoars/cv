@@ -1,4 +1,5 @@
 /**
+ * CPU module.
  * @module cv/nb/cpu
  */
 
@@ -9,7 +10,7 @@
 let cpu = {};
 
 /**
- * Cpu test method.
+ * cpu test method.
  */
 cpu.testMethod = function () {
 

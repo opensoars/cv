@@ -1,4 +1,5 @@
 /**
+ * North-bridge module.
  * @module cv/nb
  */
 

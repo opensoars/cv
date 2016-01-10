@@ -1,6 +1,11 @@
 "use strict";
 
 /**
+ * Computer visualization module.
+ * @module cv
+ */
+
+/**
  * Top level application namespace.
  * @namespace cv
  */
