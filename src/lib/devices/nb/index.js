@@ -7,7 +7,7 @@
  * North-bridge module object.
  * @namespace nb
  */
-let nb = {};
+var nb = {};
 
 /**
  * North-bridge cpu device.

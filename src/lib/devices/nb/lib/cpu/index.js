@@ -7,13 +7,17 @@
  * North-bridge cpu device.
  * @namespace cpu
  */
-let cpu = {};
+var cpu = {};
+
 
 /**
- * cpu test method.
+ * CPU core class.
  */
-cpu.testMethod = function () {
+cpu.Core = require('./lib/Core');
 
-};
+/**
+ * CPU cores array.
+ */
+cpu.cores = [new cpu.Core()];
 
 module.exports = cpu;

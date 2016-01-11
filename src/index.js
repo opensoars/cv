@@ -1,5 +1,3 @@
-"use strict";
-
 /**
  * Computer visualization module.
  * @module cv
@@ -9,7 +7,7 @@
  * Top level application namespace.
  * @namespace cv
  */
-let cv = {};
+var cv = {};
 
 /**
  * cv north bridge module
