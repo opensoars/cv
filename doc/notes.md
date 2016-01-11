@@ -3,7 +3,7 @@
 What if everything would be scalable, by making everything a class!
 
 ```
-cv
+cv {
   components [
     nb {
       Class ()
