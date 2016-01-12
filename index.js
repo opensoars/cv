@@ -1,6 +1,4 @@
-"use strict";
-
-let cv = require('./src');
+var cv = require('./src');
 
 module.exports = cv;
 
